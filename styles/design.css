@@ -1,4 +1,74 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common styles */
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.purple {
+    color: #FF42A5;
+}
+
+
+/* header style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 86px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link ul li {
+    list-style-type: none;
+    margin-right: 32px;
+
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-btn {
+    width: 262px;
+    height: 56px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: 0;
 }
