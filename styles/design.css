@@ -27,7 +27,7 @@ body {
     font-weight: 400;
 }
 
-.btn{
+.btn {
     background-color: #FF42A5;
     color: white;
     border: none;
@@ -35,7 +35,7 @@ body {
     padding: 15px 30px;
 }
 
-.linear-gradient{
+.linear-gradient {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -90,7 +90,8 @@ body {
     align-items: center;
     gap: 10px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 25px;
 }
 
@@ -98,13 +99,14 @@ body {
 
 
 /* banner styles start here*/
-.banner-container, .gamer-container{
+.banner-container,
+.gamer-container {
     display: flex;
     gap: 50px;
 }
 
 
-.banner-text{
+.banner-text {
     width: 50%;
     background-image: url("/images/Group\ 14.png");
     padding-top: 100px;
@@ -112,17 +114,21 @@ body {
     padding-bottom: 100px;
 }
 
-.banner-imgage, .gamer-image{
+.banner-imgage,
+.gamer-image {
     width: 50%;
 }
-.banner-imgage img{
+
+.banner-imgage img {
     width: 72%;
 }
-.banner-text .goat{
+
+.banner-text .goat {
     font-size: 3.5rem;
     font-weight: 800;
 }
-.dot{
+
+.dot {
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -130,59 +136,67 @@ body {
     display: inline-block;
 }
 
-.btn-go-rogue{
+.btn-go-rogue {
     background-color: #4EC5F7;
     margin-left: 20px;
 }
-.banner-text p{
+
+.banner-text p {
     margin-bottom: 15px;
 }
 
 /* Banner section ends here */
 
 /* Gamer section satrt here */
-.gamer-container{
+.gamer-container {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 500px;
 }
 
-.gamer-text{
+.gamer-text {
     width: 50%;
     text-align: right;
     padding-top: 40px;
-    width: 450px;
+    width: 400px;
 }
-.gamer-text button, .gamer-text h2{
+
+.gamer-text button,
+.gamer-text h2 {
     margin: 20px 0px;
 }
-.gamer-image img{
+
+.gamer-image img {
     width: 85%;
     margin-left: 150px;
     margin-top: 30px;
 }
+
 /* gamer section ends here */
 
 
 /* Online games or funny video section styles */
-.online-games-container-text{
+.online-games-container-text {
     text-align: center;
 }
-.online-games-container-text h1{
+
+.online-games-container-text h1 {
     font-size: 2.3rem;
     margin-top: 120px;
     font-weight: 800;
 }
 
-.online-game-container-games{
+.online-game-container-games {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 15px;
     margin-top: 48px;
 }
-.card{
+
+.card {
     width: 270px;
 }
-.card img{
+
+.card img {
     width: 270px;
     height: 320px;
     margin-bottom: 10px;
@@ -190,6 +204,43 @@ body {
 
 .card img:hover {
     cursor: pointer;
+}
+
+/* Online games or funny video section styles end here*/
+
+/* Play Instantly Section style*/
+.play-instantly-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    gap: 260px;
+}
+
+.image-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+
+}
+
+.text-container {
+    width: 300px;
+    text-align: right;
+}
+
+.text-container h1 {
+    font-size: 2rem;
+}
+
+.position-image img {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    position: relative;
+    bottom: 100px;
+    right: 90px;
 }
 
 
@@ -202,51 +253,73 @@ body {
 /* Responsive design start here */
 /* For mobile devices */
 @media screen and (max-width:576px) {
+
     .nav-container,
-    .nav-items-container, 
+    .nav-items-container,
     .gamer-container,
-    .online-game-container-games
+    .online-game-container-games,
+    .play-instantly-container
     {
         flex-direction: column;
         gap: 32px;
     }
-    .nav-items-container a{
+
+    .nav-items-container a {
         margin-right: 0px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-text{
+
+    .banner-text {
         width: 90%;
         padding-left: 100px;
     }
-    .banner-imgage,.gamer-image{
+
+    .banner-imgage,
+    .gamer-image {
         width: 100%;
     }
-    .banner-imgage img{
+
+    .banner-imgage img {
         width: 90%;
         padding-left: 60px;
     }
 
-    .gamer-image img{
+    .gamer-image img {
         width: 100%;
         margin-left: 0px;
     }
-    .gamer-text{
+
+    .gamer-text {
         text-align: center;
     }
-    .online-games-container-text h1{
+    .online-games-container-text h1 {
         font-size: 1.6rem;
         margin-top: 200px;
     }
-    .online-game-container-games .card{
-        width: 100%;
+
+
+    .online-game-container-games .card {
+        width: 80%;
         margin-left: 30px;
     }
-    .online-game-container-games img{
+
+    .online-game-container-games img {
         width: 100%;
         height: 100%;
     }
+    .image-container img {
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+    }
+    .position-image img {
+        width: 150px;
+        height: 200px;
+    }
+    
 
 
 }
