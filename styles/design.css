@@ -40,6 +40,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 
@@ -148,7 +149,6 @@ body {
 .gamer-text{
     width: 50%;
     text-align: right;
-    /* margin-right: 200px; */
     padding-top: 40px;
     width: 450px;
 }
@@ -160,6 +160,41 @@ body {
     margin-left: 150px;
     margin-top: 30px;
 }
+/* gamer section ends here */
+
+
+/* Online games or funny video section styles */
+.online-games-container-text{
+    text-align: center;
+}
+.online-games-container-text h1{
+    font-size: 2.3rem;
+    margin-top: 120px;
+    font-weight: 800;
+}
+
+.online-game-container-games{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 48px;
+}
+.card{
+    width: 270px;
+}
+.card img{
+    width: 270px;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+.card img:hover {
+    cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -167,7 +202,11 @@ body {
 /* Responsive design start here */
 /* For mobile devices */
 @media screen and (max-width:576px) {
-    .nav-container, .nav-items-container, .gamer-container{
+    .nav-container,
+    .nav-items-container, 
+    .gamer-container,
+    .online-game-container-games
+    {
         flex-direction: column;
         gap: 32px;
     }
@@ -196,4 +235,18 @@ body {
     .gamer-text{
         text-align: center;
     }
+    .online-games-container-text h1{
+        font-size: 1.6rem;
+        margin-top: 200px;
+    }
+    .online-game-container-games .card{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .online-game-container-games img{
+        width: 100%;
+        height: 100%;
+    }
+
+
 }
