@@ -12,13 +12,12 @@ body {
 }
 
 /* common styles */
-/* .title {
-    text-align: center;
+.title {
     font-size: 2rem;
     font-weight: 700;
-} */
+}
 
-.pink {
+.pink-color {
     color: #FF42A5;
 }
 
@@ -28,16 +27,16 @@ body {
     font-weight: 400;
 }
 
-/* .btn{
+.btn{
     background-color: #FF42A5;
     color: white;
     border: none;
     border-radius: 48px;
     padding: 15px 30px;
-} */
+}
 
 
-/* header style */
+/* navbar styles start here */
 
 .nav-container {
     display: flex;
@@ -59,10 +58,10 @@ body {
     margin-right: 20px;
 }
 
-.logo-container p {
+/* .logo-container p {
     font-size: 2.3rem;
     font-weight: 700;
-}
+} */
 
 .nav-items-container {
     display: flex;
@@ -82,7 +81,65 @@ body {
     border-radius: 8px;
     border: none;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+.fa-brands{
+    font-size: 25px;
+}
+
+/* navbar styles ends here */
+
+
+/* banner styles start here*/
+.banner-container{
+    display: flex;
+    gap: 50px;
+}
+
+
+.banner-text{
+    width: 50%;
+    background-image: url("/images/Group\ 14.png");
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-bottom: 100px;
+}
+
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 72%;
+}
+.banner-text .goat{
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    display: inline-block;
+}
+
+.btn-go-rogue{
+    background-color: #4EC5F7;
+    margin-left: 20px;
+}
+.banner-text p{
+    margin-bottom: 10px;
+}
+
+/* Banner section ends here */
+
 
 
 
